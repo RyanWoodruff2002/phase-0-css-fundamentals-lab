@@ -3,3 +3,27 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+#featured-property {
+  text-align: center;
+}
+figure ~ p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+
+}
+figcaption {
+  font-size: small;
+}
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
